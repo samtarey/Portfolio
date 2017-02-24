@@ -137,7 +137,7 @@ var recipes = {
 			"datePosted": "2015-02-05"
 		}],
 
-	"soupsDrinks": [
+	"soups": [
 		{
 			"name": "Spinach Soup",
 			"recipeImages": ["http://lorempixel.com/150/150/food/1"],
@@ -210,7 +210,7 @@ var recipes = {
 			"tags": ["Strawberry", "Blueberry", "Yogurt", "Soy" , "Milk" ,"Drink"],
 			"datePosted": "2015-02-15"
 		}],
-	"sweetsDesserts": [
+	"sweets": [
 		{
 			"name": "Oatmeal kheer",
 			"recipeImages": ["http://lorempixel.com/150/150/food/1"],
@@ -295,8 +295,8 @@ $('.top-menu-row a.contactus').hover(function() {
 
 var mealsItemLength = recipes.meals.length, zeroMealsFlag = false;
 var snacksItemLength = recipes.snacks.length, zeroSnacksFlag = false;
-var soupsDrinksItemLength = recipes.soupsDrinks.length, zeroDrinksFlag = false;
-var sweetsDessertsItemLength = recipes.sweetsDesserts.length, zeroDessertsFlag = false;
+var soupsDrinksItemLength = recipes.soups.length, zeroDrinksFlag = false;
+var sweetsDessertsItemLength = recipes.sweets.length, zeroDessertsFlag = false;
 var tempMealsDateArray1, tempMealsDateArray2, twoOrMoreMealsFlag = false;
 var tempSnacksDateArray1, tempSnacksDateArray2, twoOrMoreSnacksFlag = false;
 var tempSoupsDrinksDateArray1, tempSoupsDrinksDateArray2, twoOrMoreDrinksFlag = false;
@@ -333,11 +333,11 @@ for (i=1; i<=4; i++) {
 		tempRecipeName = recipes.snacks[snacksItemLength-1].name;
 		tempRecipeDatePosted = recipes.snacks[snacksItemLength-1].datePosted;
 	} else if (i===3) {
-		tempRecipeName = recipes.soupsDrinks[soupsDrinksItemLength-1].name;
-		tempRecipeDatePosted = recipes.soupsDrinks[soupsDrinksItemLength-1].datePosted
+		tempRecipeName = recipes.soups[soupsDrinksItemLength-1].name;
+		tempRecipeDatePosted = recipes.soups[soupsDrinksItemLength-1].datePosted
 	} else {
-		tempRecipeName = recipes.sweetsDesserts[sweetsDessertsItemLength-1].name;
-		tempRecipeDatePosted = recipes.sweetsDesserts[sweetsDessertsItemLength-1].datePosted;
+		tempRecipeName = recipes.sweets[sweetsDessertsItemLength-1].name;
+		tempRecipeDatePosted = recipes.sweets[sweetsDessertsItemLength-1].datePosted;
 	}
 
 
@@ -363,11 +363,11 @@ for (i=1; i<=4; i++) {
 		tempRecipeName = recipes.snacks[snacksItemLength-2].name;
 		tempRecipeDatePosted = recipes.snacks[snacksItemLength-2].datePosted;
 	} else if (i===3) {
-		tempRecipeName = recipes.soupsDrinks[soupsDrinksItemLength-2].name;
-		tempRecipeDatePosted = recipes.soupsDrinks[soupsDrinksItemLength-2].datePosted
+		tempRecipeName = recipes.soups[soupsDrinksItemLength-2].name;
+		tempRecipeDatePosted = recipes.soups[soupsDrinksItemLength-2].datePosted
 	} else {
-		tempRecipeName = recipes.sweetsDesserts[sweetsDessertsItemLength-2].name;
-		tempRecipeDatePosted = recipes.sweetsDesserts[sweetsDessertsItemLength-2].datePosted;
+		tempRecipeName = recipes.sweets[sweetsDessertsItemLength-2].name;
+		tempRecipeDatePosted = recipes.sweets[sweetsDessertsItemLength-2].datePosted;
 	}
 
 	var formath51 = h51.replace("%data%", tempRecipeName);

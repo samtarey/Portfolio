@@ -3,9 +3,10 @@
 	-webkit-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	/*border: 1px red solid !important;*/
+/*	border: 1px red solid !important;*/
 	/*font-family: 'Lato', sans-serif;*/
 	font-family: 'Roboto Condensed', sans-serif;
+    
 }
 
 html, html a {
@@ -35,14 +36,37 @@ html, body {
 	background-color: #FFFFFF; /*#FFFAF2; #F0F0F0; #E0E0E0; #C2A385; #996633;*/
 }
 
+.logo-padding {
+/*    margin-left: 15px;*/
+    padding-right: 0px;
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
 .row {
 	display: flex;
 }
 
 .col-background {
-	/*background-color: #FFFFFF;*/
+/*	background-color: wheat;*/
 	padding-left: 0px;
 	margin-left: 0px;
+}
+
+.about-color-background {
+    background-color: wheat;
+}
+
+.interesting-bcolor {
+    background-color: palegreen;
+    padding: 10px;
+    height: 70%;
+    
+}
+
+.search-bcolor {
+    background-color: dimgray;
+    padding: 12px;
 }
 
 .row-background {
@@ -52,19 +76,20 @@ html, body {
 .header-border {
 	/*border: 2px #E0E0E0	solid !important ;*/
 	/*border-radius: 10px;*/
-	/*background-color: #9C786C;*/
+/*	background-color: firebrick;*/
 }
 
 .carousel-margin-padding {
-	margin-right: 10px;
+/*	margin-right: 10px;*/
 	padding-left: 0px;
 	padding-right: 0px;
+    max-width: 100%;
 }
 
 .int-margin-padding {
 	margin-left: 0px;
 	margin-right: 0px;
-	padding-top: 20px;
+	padding-top: 0px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -83,8 +108,8 @@ html, body {
 }
 
 h4 {
-	font-weight: bold;
-	font-family: 'Karla', sans-serif;
+/*	font-weight: bold;*/
+/*	font-family: 'Karla', sans-serif;*/
 }
 
 .archive {
@@ -140,25 +165,33 @@ ul.top-nav-menu a:hover {
 .site-title {
 	font-size: 55px;
 	font-weight: bold;
-	color: #F3AC07;
+/*	color: #F3AC07;*/
 	font-family: 'Allura', cursive;
+    padding-top: 10px;
 }
+
+
 
 .interesting {
 	list-style-type: none;
 }
 
-ul.interesting a {
+a {
 	color: #747474;
 }
 
-ul.interesting a:hover, ul.top-nav-menu a:hover, ul.archive a:hover {
+a:hover {
+    text-decoration: none;
+	color: #F3AC07;
+}
+
+ul.top-nav-menu a:hover {
 	text-decoration: none;
 	color: #F3AC07;
 }
 
 .about-box {
-	margin-left: 10px;
+/*	margin-left: 10px;*/
 	margin-right: 0px;
 	padding-left: 10px;
 	padding-right: 0px;
@@ -178,13 +211,17 @@ div.about-box a:hover {
 }
 
 article p {
-	font-size: 15px;
+	font-size: 13px;
 	color: #000000; /*#747474;*/
 }
 
 .orange {
-	background-color: #F3AC07;
+	background-color: dimgray;
 	height: 2px;
+}
+
+.img-circle {
+    margin-top: 5px;
 }
 
 /*.vertical-line {
