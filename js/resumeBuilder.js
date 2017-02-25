@@ -6,10 +6,10 @@ var bio = {
 	"mobile": "xxx-xxx-xxxx",
 	"email": "abc.xyz@hotmail.com",
 	"github": "https://github.com/abcxyz",
-	"location": "xxx, WA"
+	"location": "xxx, xx"
 },
-"welcomeMessage": "Writing software and building software products is something I have always wished to do and have done it for some period of my life. Now, I want to take my skills to another level, be a proficient and build high end websites and I won't mind doing it for the rest of my life, taking every step towards doing something better than I did yesterday.",
-"skills": ["HTML", "CSS", "Javascript", "Programming", "Software Testing", "Awesomeness"],
+"welcomeMessage": "Writing software and building software products is something I have always wished to do and have done it for some period of my life. Now, I want to take my skills to another level, be a proficient and build responsive, high quality, visually stunning websites and I won't mind doing it for the rest of my life, taking every step towards doing something better than I did yesterday.",
+"skills": ["HTML", "CSS", "Javascript", "jQuery", "AJAX", "Software Testing", "Awesomeness"],
 "biopic": "images/fry.jpg",
 "display": "function() {}"
 };
