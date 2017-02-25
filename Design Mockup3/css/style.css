@@ -54,6 +54,10 @@
 	padding-top: 15px;
 }
 
+.image {
+    width: 100%;
+}
+
 .div_text {
 	/*z-index: 100;*/
 	position: absolute;
