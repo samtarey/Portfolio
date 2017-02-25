@@ -60,7 +60,7 @@ html, body {
 .interesting-bcolor {
     background-color: palegreen;
     padding: 10px;
-    height: 70%;
+    height: 67%;
     
 }
 
@@ -197,6 +197,10 @@ ul.top-nav-menu a:hover {
 	padding-right: 0px;
 }
 
+.aboutpic {
+    width: 100px;
+    height: 100px;
+}
 .about-box p {
 	font-size: 13px;
 }
