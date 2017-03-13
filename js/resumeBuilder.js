@@ -323,19 +323,6 @@ $("#footerContacts").append(formattedContacts);
 formattedContacts = HTMLlocation.replace("%data%", bio.contacts.location);
 $("#footerContacts").append(formattedContacts);
 //------------------------------------------------------------------------------
-// function locationizer(workExperience){
-
-// 	var locations = [];
-
-// 	for(var workLoc in workExperience){
-// 		locations.push(workExperience[workLoc].location);
-// 	}
-// 	return locations;
-// }
-// var workLocations = locationizer(workExperience);
-// console.log(workLocations);
-
-//------------------------------------------------------------------------------
 
 function inName(str){
 	str = str.trim().split(" ");

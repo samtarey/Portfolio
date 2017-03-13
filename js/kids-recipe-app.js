@@ -430,7 +430,6 @@ while (noOfSnacks <snacksItemLength) {
 
 //--------------------------------------------------------------------------------------------------------------------------------
 //This is a working code for showing submenu on hover.
-//credit--> http://jsbin.com/miruw/1/edit?html,js,output
 	$('.dropdown').hover(
       function() {
         $(this).find('.dropdown-menu').stop(true, true).delay(50).fadeIn();
@@ -449,84 +448,7 @@ while (noOfSnacks <snacksItemLength) {
       }
     );
 
-//-----------------------------------------------------------------------------------------------------------------------------------
-//compare last two array items with one another and sort. for that first check if there are at least two items in each array.
-//NOT TESTED
-// if (mealsItemLength === 0) 
-// 	zeroMealsFlag = true;
-// else if (mealsItemLength === 1){
-// 	tempMealsDateArray1 = StringToDate(recipes.meals[mealsItemLength-1].datePosted);
-// 	zeroMealsFlag = false;
-// 	twoOrMoreMealsFlag = false;
-// }
-// else {
-// 	tempMealsDateArray1 = StringToDate(recipes.meals[mealsItemLength-1].datePosted);
-// 	tempMealsDateArray2 = StringToDate(recipes.meals[mealsItemLength-2].datePosted);
-// 	zeroMealsFlag = false;
-// 	twoOrMoreMealsFlag = true;
-// }
-
-// if (snacksItemLength === 0)
-// 	zeroSnacksFlag = true;
-// else if (snacksItemLength === 1){
-// 	tempSnacksDateArray1 = StringToDate(recipes.snacks[snacksItemLength-1].datePosted);
-// 	zeroSnacksFlag = false;
-// 	twoOrMoreSnacksFlag = false;
-// }
-// else {
-// 	tempSnacksDateArray1 = StringToDate(recipes.meals[snacksItemLength-1].datePosted);
-// 	tempSnacksDateArray2 = StringToDate(recipes.meals[snacksItemLength-2].datePosted);
-// 	zeroSnacksFlag = false;
-// 	twoOrMoreSnacksFlag = true;
-// }
-
-
-// if (soupsDrinksItemLength === 0)
-// 	zeroDrinksFlag = true;
-// else if (soupsDrinksItemLength === 1){
-// 	tempSoupsDrinksDateArray1 = StringToDate(recipes.soupsDrinks[soupsDrinksItemLength-1].datePosted);
-// 	zeroDrinksFlag = false;
-// 	twoOrMoreDrinksFlag = false;
-// }
-// else {
-// 	tempSoupsDrinksDateArray1 = StringToDate(recipes.soupsDrinks[soupsDrinksItemLength-1].datePosted);
-// 	tempSoupsDrinksDateArray2 = StringToDate(recipes.soupsDrinks[soupsDrinksItemLength-2].datePosted);
-// 	zeroDrinksFlag = false;
-// 	twoOrMoreDrinksFlag = true;
-// }
-
-// if (sweetsDessertsItemLength === 0)
-// 	zeroDessertsFlag = true;
-// else if (sweetsDessertsItemLength === 1){
-// 	tempSweetsDessertsDateArray1 = StringToDate(recipes.sweetsDesserts[sweetsDessertsItemLength-1].datePosted);
-// 	zeroDessertsFlag = false;
-// 	twoOrMoreDessertsFlag = false;
-// }
-// else {
-// 	tempSweetsDessertsDateArray1 = StringToDate(recipes.sweetsDesserts[sweetsDessertsItemLength-1].datePosted);
-// 	tempSweetsDessertsDateArray2 = StringToDate(recipes.sweetsDesserts[sweetsDessertsItemLength-2].datePosted);
-// 	zeroDessertsFlag = false;
-// 	twoOrMoreDessertsFlag = true;
-// }
-//compare meals datePosted with the others - snacks, soupsDrinks, sweetsDesserts - compare starting from last array Index and not from zero index as the latest posts are added at the last.
-//The goal is to find latest 10 recipes
 function StringToDate(str) {
 		return str.split("-")
 	}
 
-//-------------------------------------------------------------------------------------------------------------------------------------------
-
-
-//sorting
-// function compareNumbers(a,b) {
-// 	if (a[0][0] > b[0][0]) {
-// 		return -1;
-// 	}
-// 	else 
-// 		return 1;
-
-// 	return 0;
-// }
-// console.log(tempDateArray.sort(compareNumbers));
-
-// 	
